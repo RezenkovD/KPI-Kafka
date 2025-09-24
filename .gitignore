@@ -178,3 +178,4 @@ pyrightconfig.json
 kafka-logs/
 data/
 kafka/
+.idea/
