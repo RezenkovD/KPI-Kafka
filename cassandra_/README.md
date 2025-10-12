@@ -25,19 +25,19 @@ First, pull the official Cassandra image and start a container.
 
 ```bash
 # Pull the latest Cassandra image
-docker pull cassandra
+docker pull cassandra_
 ```
 
 ```bash
 # Run the container in detached mode, mapping the port
-docker run --name cassandra-lab -p 9042:9042 -d cassandra
+docker run --name cassandra_-lab -p 9042:9042 -d cassandra_
 ```
 
 Important Note: Cassandra can take 1-2 minutes to initialize. Before connecting, check that the service is ready:
 
 ```bash
 # Check the node status. Repeat until the status is "UN" (Up/Normal)
-docker exec -it cassandra-lab nodetool status
+docker exec -it cassandra_-lab nodetool status
 ```
 
 
@@ -53,7 +53,7 @@ source venv/bin/activate
 
 ```bash
 # Install the Cassandra driver
-pip install cassandra-driver
+pip install cassandra_-driver
 ```
 
 

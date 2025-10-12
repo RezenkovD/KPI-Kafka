@@ -1,8 +1,8 @@
 import uuid
 import random
 from datetime import datetime, timedelta
-from cassandra.cluster import Cluster
-from cassandra.query import BatchStatement
+from cassandra_.cluster import Cluster
+from cassandra_.query import BatchStatement
 
 # --- Налаштування підключення ---
 KEYSPACE = "zaporizhzhia_wind_farms"
