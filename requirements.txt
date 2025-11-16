@@ -9,3 +9,4 @@ numpy==1.26.2
 lz4~=4.4.4
 zstandard~=0.25.0
 cassandra-driver~=3.29.2
+faust-streaming[rocksdb]==0.10.20
